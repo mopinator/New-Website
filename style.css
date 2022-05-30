@@ -57,6 +57,11 @@ body.light {
 	color: black;
 }
 
+.light .socialMedia {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
 .light .footer h3 {
 	color: black;
 }
