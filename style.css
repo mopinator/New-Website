@@ -27,8 +27,8 @@ body {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	margin-top: 0.5%;
-	top: 12.5%;
+	margin-top: 0.05%;
+	top: 11.7%;
 	position: sticky;
 }
 
@@ -320,6 +320,11 @@ p2 {
 
 /* screen sizing */
 @media screen and (max-width: 768px) {
+	.moonSun {
+		margin-top: 0;
+		top: 7.5%;
+		position: sticky;
+	}
 	.profile {
 		flex-direction: column;
 		justify-content: center;
@@ -359,6 +364,11 @@ p2 {
 }
 
 @media screen and (max-width: 640px) {
+	.moonSun {
+		margin-top: 0x;
+		top: 6.6%;
+		position: sticky;
+	}
 	.profile {
 		flex-direction: column;
 		justify-content: center;
